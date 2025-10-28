@@ -15,15 +15,17 @@ public class Student {
     private String studName;
     private String studId;
     private String program;
+    private String address;
 
     public Student() {
     }
     
 
-    public Student(String studName, String studId, String program) {
+    public Student(String studName, String studId, String program, String address) {
         this.studName = studName;
         this.studId = studId;
         this.program = program;
+        this.address= address;
     }
 
   
@@ -69,6 +71,22 @@ public class Student {
      */
     public void setProgram(String program) {
         this.program = program;
+    }
+    
+    /**
+     * @return the address
+     */
+    
+    public String getAdress() {
+        return address;
+    }
+    
+    /**
+     * @param address the address to set
+     */
+    
+    public void setAdress(String address) {
+        this.address= address;
     }
     
 }

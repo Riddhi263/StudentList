@@ -16,7 +16,7 @@ public class StudentList {
 
    
     public static void main(String[] args) {
-        Student[] studList=new Student[5];
+        Student[] studList=new Student[4];
         
         //studList[0]=new Student("Micheal","1","SDNE");
     
